@@ -33,7 +33,7 @@ export function ProductsPage() {
         onChange={(event) => handleChange(event)}
         placeholder='Product search'
       />
-      <div className="flex flex-row 3xl:flex-col w-full">
+      <div className="flex flex-row w-full 3xl:flex-col 3xl:items-center">
         <Category categories={categories} sortProducts={sortProducts} />
 
         <div className="container flex flex-wrap flex-row justify-evenly pt-5 h-min">

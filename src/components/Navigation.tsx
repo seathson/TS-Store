@@ -7,8 +7,8 @@ export function Navigation() {
       <span className="font-bold">Store</span>
 
       <span>
-        <Link to="/" className="mr-2">Products</Link>
-        <Link to="/about">About</Link>
+        <Link to="/TS-Store" className="mr-2">Products</Link>
+        <Link to="/TS-Store/about">About</Link>
       </span>
     </nav>
   )
